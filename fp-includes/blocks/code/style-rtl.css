@@ -1,0 +1,11 @@
+.fp-block-code{
+  box-sizing:border-box;
+}
+.fp-block-code code{
+  direction:ltr;
+  display:block;
+  font-family:inherit;
+  overflow-wrap:break-word;
+  text-align:initial;
+  white-space:pre-wrap;
+}

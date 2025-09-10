@@ -1,0 +1,31 @@
+.fp-block-buttons>.fp-block,.fp-block-buttons>.fp-block-button.fp-block-button.fp-block-button.fp-block-button.fp-block-button{
+  margin:0;
+}
+.fp-block-buttons>.block-list-appender{
+  align-items:center;
+  display:inline-flex;
+}
+.fp-block-buttons.is-vertical>.block-list-appender .block-list-appender__toggle{
+  justify-content:flex-start;
+}
+.fp-block-buttons>.fp-block-button:focus{
+  box-shadow:none;
+}
+.fp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .fp-block[data-align=center]{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0;
+  width:100%;
+}
+.fp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .fp-block[data-align=center] .fp-block-button{
+  margin-bottom:0;
+}
+
+.fp-block[data-align=center]>.fp-block-buttons{
+  align-items:center;
+  justify-content:center;
+}
+
+.fp-block[data-align=right]>.fp-block-buttons{
+  justify-content:flex-end;
+}

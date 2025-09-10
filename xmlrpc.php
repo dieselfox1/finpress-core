@@ -26,7 +26,7 @@ $HTTP_RAW_POST_DATA = trim( $HTTP_RAW_POST_DATA );
 // phpcs:enable
 
 /** Include the bootstrap for setting up WordPress environment */
-require_once __DIR__ . '/wp-load.php';
+require_once __DIR__ . '/fp-load.php';
 
 if ( isset( $_GET['rsd'] ) ) { // https://cyber.harvard.edu/blogs/gems/tech/rsd.html
 	header( 'Content-Type: text/xml; charset=' . get_option( 'blog_charset' ), true );
@@ -35,7 +35,7 @@ if ( isset( $_GET['rsd'] ) ) { // https://cyber.harvard.edu/blogs/gems/tech/rsd.
 <rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
 	<service>
 		<engineName>WordPress</engineName>
-		<engineLink>https://wordpress.org/</engineLink>
+		<engineLink>https://finpress.org/</engineLink>
 		<homePageLink><?php bloginfo_rss( 'url' ); ?></homePageLink>
 		<apis>
 			<api name="WordPress" blogID="1" preferred="true" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
@@ -59,9 +59,9 @@ if ( isset( $_GET['rsd'] ) ) { // https://cyber.harvard.edu/blogs/gems/tech/rsd.
 	exit;
 }
 
-require_once ABSPATH . 'wp-admin/includes/admin.php';
-require_once ABSPATH . WPINC . '/class-IXR.php';
-require_once ABSPATH . WPINC . '/class-wp-xmlrpc-server.php';
+require_once ABSPATH . 'fp-admin/includes/admin.php';
+require_once ABSPATH . FPINC . '/class-IXR.php';
+require_once ABSPATH . FPINC . '/class-fp-xmlrpc-server.php';
 
 /**
  * Posts submitted via the XML-RPC interface get that title

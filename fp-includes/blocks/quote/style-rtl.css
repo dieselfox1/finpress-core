@@ -1,0 +1,20 @@
+.fp-block-quote{
+  box-sizing:border-box;
+  overflow-wrap:break-word;
+}
+.fp-block-quote.is-large:where(:not(.is-style-plain)),.fp-block-quote.is-style-large:where(:not(.is-style-plain)){
+  margin-bottom:1em;
+  padding:0 1em;
+}
+.fp-block-quote.is-large:where(:not(.is-style-plain)) p,.fp-block-quote.is-style-large:where(:not(.is-style-plain)) p{
+  font-size:1.5em;
+  font-style:italic;
+  line-height:1.6;
+}
+.fp-block-quote.is-large:where(:not(.is-style-plain)) cite,.fp-block-quote.is-large:where(:not(.is-style-plain)) footer,.fp-block-quote.is-style-large:where(:not(.is-style-plain)) cite,.fp-block-quote.is-style-large:where(:not(.is-style-plain)) footer{
+  font-size:1.125em;
+  text-align:left;
+}
+.fp-block-quote>cite{
+  display:block;
+}

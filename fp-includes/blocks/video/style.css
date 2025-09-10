@@ -1,0 +1,19 @@
+.fp-block-video{
+  box-sizing:border-box;
+}
+.fp-block-video video{
+  vertical-align:middle;
+  width:100%;
+}
+@supports (position:sticky){
+  .fp-block-video [poster]{
+    object-fit:cover;
+  }
+}
+.fp-block-video.aligncenter{
+  text-align:center;
+}
+.fp-block-video :where(figcaption){
+  margin-bottom:1em;
+  margin-top:.5em;
+}

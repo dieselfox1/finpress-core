@@ -1,0 +1,8 @@
+.fp-block-preformatted{
+  box-sizing:border-box;
+  white-space:pre-wrap;
+}
+
+:where(.fp-block-preformatted.has-background){
+  padding:1.25em 2.375em;
+}

@@ -1,0 +1,8 @@
+.fp-block-search .fp-block-search__label{
+  font-weight:700;
+}
+
+.fp-block-search__button{
+  border:1px solid #ccc;
+  padding:.375em .625em;
+}

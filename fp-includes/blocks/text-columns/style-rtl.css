@@ -1,0 +1,22 @@
+.fp-block-text-columns,.fp-block-text-columns.aligncenter{
+  display:flex;
+}
+.fp-block-text-columns .fp-block-column{
+  margin:0 1em;
+  padding:0;
+}
+.fp-block-text-columns .fp-block-column:first-child{
+  margin-right:0;
+}
+.fp-block-text-columns .fp-block-column:last-child{
+  margin-left:0;
+}
+.fp-block-text-columns.columns-2 .fp-block-column{
+  width:50%;
+}
+.fp-block-text-columns.columns-3 .fp-block-column{
+  width:33.3333333333%;
+}
+.fp-block-text-columns.columns-4 .fp-block-column{
+  width:25%;
+}

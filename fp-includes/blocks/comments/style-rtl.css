@@ -1,0 +1,107 @@
+.fp-block-post-comments{
+  box-sizing:border-box;
+}
+.fp-block-post-comments .alignleft{
+  float:right;
+}
+.fp-block-post-comments .alignright{
+  float:left;
+}
+.fp-block-post-comments .navigation:after{
+  clear:both;
+  content:"";
+  display:table;
+}
+.fp-block-post-comments .commentlist{
+  clear:both;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.fp-block-post-comments .commentlist .comment{
+  min-height:2.25em;
+  padding-right:3.25em;
+}
+.fp-block-post-comments .commentlist .comment p{
+  font-size:1em;
+  line-height:1.8;
+  margin:1em 0;
+}
+.fp-block-post-comments .commentlist .children{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.fp-block-post-comments .comment-author{
+  line-height:1.5;
+}
+.fp-block-post-comments .comment-author .avatar{
+  border-radius:1.5em;
+  display:block;
+  float:right;
+  height:2.5em;
+  margin-left:.75em;
+  margin-top:.5em;
+  width:2.5em;
+}
+.fp-block-post-comments .comment-author cite{
+  font-style:normal;
+}
+.fp-block-post-comments .comment-meta{
+  font-size:.875em;
+  line-height:1.5;
+}
+.fp-block-post-comments .comment-meta b{
+  font-weight:400;
+}
+.fp-block-post-comments .comment-meta .comment-awaiting-moderation{
+  display:block;
+  margin-bottom:1em;
+  margin-top:1em;
+}
+.fp-block-post-comments .comment-body .commentmetadata{
+  font-size:.875em;
+}
+.fp-block-post-comments .comment-form-author label,.fp-block-post-comments .comment-form-comment label,.fp-block-post-comments .comment-form-email label,.fp-block-post-comments .comment-form-url label{
+  display:block;
+  margin-bottom:.25em;
+}
+.fp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.fp-block-post-comments .comment-form textarea{
+  box-sizing:border-box;
+  display:block;
+  width:100%;
+}
+.fp-block-post-comments .comment-form-cookies-consent{
+  display:flex;
+  gap:.25em;
+}
+.fp-block-post-comments .comment-form-cookies-consent #fp-comment-cookies-consent{
+  margin-top:.35em;
+}
+.fp-block-post-comments .comment-reply-title{
+  margin-bottom:0;
+}
+.fp-block-post-comments .comment-reply-title :where(small){
+  font-size:var(--fp--preset--font-size--medium, smaller);
+  margin-right:.5em;
+}
+.fp-block-post-comments .reply{
+  font-size:.875em;
+  margin-bottom:1.4em;
+}
+.fp-block-post-comments input:not([type=submit]),.fp-block-post-comments textarea{
+  border:1px solid #949494;
+  font-family:inherit;
+  font-size:1em;
+}
+.fp-block-post-comments input:not([type=submit]):not([type=checkbox]),.fp-block-post-comments textarea{
+  padding:calc(.667em + 2px);
+}
+
+:where(.fp-block-post-comments input[type=submit]){
+  border:none;
+}
+
+.fp-block-comments{
+  box-sizing:border-box;
+}

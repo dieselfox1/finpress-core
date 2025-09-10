@@ -1,0 +1,55 @@
+.fp-block-buttons{
+  box-sizing:border-box;
+}
+.fp-block-buttons.is-vertical{
+  flex-direction:column;
+}
+.fp-block-buttons.is-vertical>.fp-block-button:last-child{
+  margin-bottom:0;
+}
+.fp-block-buttons>.fp-block-button{
+  display:inline-block;
+  margin:0;
+}
+.fp-block-buttons.is-content-justification-left{
+  justify-content:flex-start;
+}
+.fp-block-buttons.is-content-justification-left.is-vertical{
+  align-items:flex-start;
+}
+.fp-block-buttons.is-content-justification-center{
+  justify-content:center;
+}
+.fp-block-buttons.is-content-justification-center.is-vertical{
+  align-items:center;
+}
+.fp-block-buttons.is-content-justification-right{
+  justify-content:flex-end;
+}
+.fp-block-buttons.is-content-justification-right.is-vertical{
+  align-items:flex-end;
+}
+.fp-block-buttons.is-content-justification-space-between{
+  justify-content:space-between;
+}
+.fp-block-buttons.aligncenter{
+  text-align:center;
+}
+.fp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .fp-block-button.aligncenter{
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+}
+.fp-block-buttons[style*=text-decoration] .fp-block-button,.fp-block-buttons[style*=text-decoration] .fp-block-button__link{
+  text-decoration:inherit;
+}
+.fp-block-buttons.has-custom-font-size .fp-block-button__link{
+  font-size:inherit;
+}
+.fp-block-buttons .fp-block-button__link{
+  width:100%;
+}
+
+.fp-block-button.aligncenter{
+  text-align:center;
+}

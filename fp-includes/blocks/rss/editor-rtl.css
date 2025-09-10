@@ -1,0 +1,13 @@
+.fp-block-rss li a>div{
+  display:inline;
+}
+
+.fp-block-rss__placeholder-form .fp-block-rss__placeholder-input{
+  flex:1 1 auto;
+}
+
+.fp-block-rss .fp-block-rss{
+  all:inherit;
+  margin:0;
+  padding:0;
+}
